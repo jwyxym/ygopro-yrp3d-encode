@@ -1,7 +1,7 @@
 {
   "name": "ygopro-yrp3d-encode",
   "description": "A platform-agnostic YGOPro Unity `.yrp3d` replay packet parser and writer.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
