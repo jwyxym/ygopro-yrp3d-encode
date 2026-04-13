@@ -1,0 +1,7 @@
+export const YRP3D_SIBYL_CHAT = 230;
+export const YRP3D_SIBYL_REPLAY = 231;
+export const YRP3D_SIBYL_NAME = 235;
+export const YRP3D_SIBYL_QUIT = 236;
+
+export const YRP3D_NAME_FIELD_CHARS = 50;
+export const YRP3D_NAME_FIELD_BYTES = YRP3D_NAME_FIELD_CHARS * 2;
