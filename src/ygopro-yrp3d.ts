@@ -117,6 +117,15 @@ export class YGOProYrp3d {
     return writeYrp3dPackets(packets);
   }
 
+  push(payload: Uint8Array) {
+    const message = YGOProMessages.getInstanceFromPayload(
+      payload,
+    );
+    if (message) {
+      this.messages.push(message);
+    }
+  }
+
   extractYrp(): YGOProYrp | undefined {
     for (let i = this.messages.length - 1; i >= 0; i--) {
       const message = this.messages[i];
