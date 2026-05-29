@@ -19,6 +19,7 @@
     "build:esm": "node build.js esm",
     "build:types": "node build.js types",
     "clean": "node build.js clean",
+    "prepare": "npm run build",
     "test": "jest --passWithNoTests",
     "start": "node dist/index.cjs"
   },
